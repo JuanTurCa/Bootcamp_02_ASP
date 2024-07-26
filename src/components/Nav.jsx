@@ -5,10 +5,10 @@ import { FNAF3 } from './FNAF3';
 import { FNAF4 } from './FNAF4';
 import { FNAF5 } from './FNAF5';
 import { FNAF6 } from './FNAF6';
- //Help
+
 export const Nav = () => {
   return (
-    <div className='container mt-4 father'>
+    <div className="container mt-4 father">
         <Link to='/fnaf1' className='links'>
             <figure className='image-size'>
                 <FNAF1 />

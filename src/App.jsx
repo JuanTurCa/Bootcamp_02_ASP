@@ -12,16 +12,21 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <h1 id='title' className='text-center my-3'>Five Nights at Freddy's</h1>
-        <Routes>
-          <Route path="/fnaf1" element={<FNAF1 className='image-size' />} />
-          <Route path="/FNAF2" element={<FNAF2 className='image-size'/>}  />
-          <Route path="/FNAF3" element={<FNAF3 className='image-size'/>}  />
-          <Route path="/FNAF4" element={<FNAF4 className='image-size'/>}  />
-          <Route path="/FNAF5" element={<FNAF5 className='image-size'/>}  />
-          <Route path="/FNAF6" element={<FNAF6 className='image-size'/>}  />
-        </Routes>
-        <Nav />
+        <h1 id='title' className='text-center my-3'>Five Nights at Freddy`s</h1>
+        <div id='main-img-container' className='container'>
+          <Routes>
+            <Route path="/fnaf1" element={<FNAF1 className='image-size' />} />
+            <Route path="/FNAF2" element={<FNAF2 className='image-size'/>}  />
+            <Route path="/FNAF3" element={<FNAF3 className='image-size'/>}  />
+            <Route path="/FNAF4" element={<FNAF4 className='image-size'/>}  />
+            <Route path="/FNAF5" element={<FNAF5 className='image-size'/>}  />
+            <Route path="/FNAF6" element={<FNAF6 className='image-size'/>}  />
+          </Routes>
+        </div>
+        <div className='container'>
+          <Nav />
+        </div>
+
       </BrowserRouter>
     </>
   )

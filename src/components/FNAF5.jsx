@@ -9,4 +9,4 @@ export const FNAF5 = ( {className} ) => {
   )
 }
 
-FNAF5.propTypes = { className: PropTypes.string }
+FNAF5.propTypes = { className: PropTypes.string };
